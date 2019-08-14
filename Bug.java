@@ -8,15 +8,14 @@
 public class Bug
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int wings;
 
     /**
      * Constructor for objects of class Bug
      */
     public Bug()
     {
-        // initialise instance variables
-        x =10;
+        wings = 2;
     }
 
     /**
@@ -25,9 +24,9 @@ public class Bug
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public int increaseWings(int y)
     {
         // put your code here
-        return x + y;
+        return wings + y;
     }
 }
